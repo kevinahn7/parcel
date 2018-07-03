@@ -1,9 +1,18 @@
 ﻿@{
     ViewData["Title"] = "Form";
+
+  
 }
 
+<!--<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+</head>-->
 
-<form action="/parcels/cost" >
+<h3>Enter your parcel dimensions here:</h3>
+<form action="/parcels/cost" method="post">
   <div class="form-group">
     <label for="weight">Weight</label>
     <input name="weight" type="text" class="form-control" id="weight" placeholder="Weight" required>

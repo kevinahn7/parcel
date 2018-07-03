@@ -27,6 +27,5 @@ namespace Parcel.Models
             int costToShip = _weight * CalculateVolume();
             return costToShip;
         }
-
     }
 }
