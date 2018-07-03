@@ -32,7 +32,6 @@ namespace Parcel.Tests
         {
             //Arrange
             ParcelsController controller = new ParcelsController();
-            IActionResult actionResult = controller.Cost(2, 2, 2, 2);
             ViewResult costDataType = controller.Cost(2, 2, 2, 2) as ViewResult;
 
             //Act

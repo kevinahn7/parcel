@@ -17,7 +17,7 @@ namespace Parcel.Controllers
             return View();
         }
 
-        [HttpPost("/parcels/cost")]
+        [HttpGet("/parcels/cost")]
         public IActionResult Cost(int length, int height, int width, int weight)
         {
             ShippingItem newShippingItem = new ShippingItem(length, width, height, weight);
