@@ -3,7 +3,7 @@
 
 $("#parcelForm").submit(function(){
 
-alert("Your cost is being calculated....")
+    alert("Your cost is being calculated....");
 
-})
+});
 
