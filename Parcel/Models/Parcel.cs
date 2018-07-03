@@ -67,7 +67,7 @@ namespace Parcel.Models
 
         public int CalculateCost()
         {
-            int costToShip = this.GetWeight();
+            int costToShip = this.GetWeight() * CalculateVolume();
             return costToShip;
         }
 

@@ -14,5 +14,9 @@
 
   <ItemGroup>
     <Folder Include="ModelTests\" />
+    <Folder Include="ControllerTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Parcel\Parcel.csproj" />
   </ItemGroup>
 </Project>

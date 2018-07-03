@@ -17,19 +17,17 @@ namespace Parcel.Controllers
             return View();
         }
 
-
         [HttpGet("/parcels/cost")]
         public ActionResult Cost()
         {
             // info from the form
-            int length = 2;
-            int height = 2;
-            int width = 2;
+            var length = int.Parse(Request.Query["length"]);
+            var height = int.Parse(Request.Query["height"]);
+            var width = int.Parse(Request.Query["width"]);
             var weight = int.Parse(Request.Query["weight"]);
             ShippingItem newShippingItem = new ShippingItem(length, width, height, weight);
-            int calculatedCost = newShippingItem.CalculateCost();
-            return View(calculatedCost);
-           
+            return View(newShippingItem);
+            
         }
     }
 }

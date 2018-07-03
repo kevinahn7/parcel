@@ -6,11 +6,20 @@
 <form action="/parcels/cost" >
   <div class="form-group">
     <label for="weight">Weight</label>
-    <input name="weight" type="text" class="form-control" id="weight" placeholder="Weight">
+    <input name="weight" type="text" class="form-control" id="weight" placeholder="Weight" required>
   </div>
-<!--  <div class="form-group">
-    <label for="formGroupExampleInput2">Another label</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-  </div>-->
-    <button type='submit' class='btn'>Go!</button>
+ <div class="form-group">
+    <label for="length">Length</label>
+    <input name="length" type="text" class="form-control" id="length" placeholder="length" required>
+  </div>
+  <div class="form-group">
+    <label for="height">Height</label>
+    <input name="height" type="text" class="form-control" id="height" placeholder="height" required>
+  </div>
+  <div class="form-group">
+    <label for="width">Width</label>
+    <input name="width" type="text" class="form-control" id="width" placeholder="width" required>
+  </div>
+
+    <button type='submit' class='btn btn-success'>Go!</button>
 </form>
