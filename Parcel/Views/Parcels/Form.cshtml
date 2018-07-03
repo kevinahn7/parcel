@@ -1,33 +1,25 @@
 ﻿@{
     ViewData["Title"] = "Form";
 
-  
 }
 
-<!--<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test</title>
-    <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
-</head>-->
-
 <h3>Enter your parcel dimensions here:</h3>
-<form action="/parcels/cost" method="post">
+<form id="parcelForm" action="/parcels/cost" method="post">
   <div class="form-group">
     <label for="weight">Weight</label>
     <input name="weight" type="text" class="form-control" id="weight" placeholder="Weight" required>
   </div>
  <div class="form-group">
     <label for="length">Length</label>
-    <input name="length" type="text" class="form-control" id="length" placeholder="length" required>
+    <input name="length" type="text" class="form-control" id="length" placeholder="Length" required>
   </div>
   <div class="form-group">
     <label for="height">Height</label>
-    <input name="height" type="text" class="form-control" id="height" placeholder="height" required>
+    <input name="height" type="text" class="form-control" id="height" placeholder="Height" required>
   </div>
   <div class="form-group">
     <label for="width">Width</label>
-    <input name="width" type="text" class="form-control" id="width" placeholder="width" required>
+    <input name="width" type="text" class="form-control" id="width" placeholder="Width" required>
   </div>
 
     <button type='submit' class='btn btn-success'>Go!</button>
