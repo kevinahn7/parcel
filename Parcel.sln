@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcel", "Parcel\Parcel.csproj", "{2A91D36F-8B8A-43A2-9F08-9B62AF61D8A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcel.Tests", "Parcel.Tests\Parcel.Tests.csproj", "{C8E20717-F8E2-4F31-A0BB-9DAFC77707BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A91D36F-8B8A-43A2-9F08-9B62AF61D8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A91D36F-8B8A-43A2-9F08-9B62AF61D8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A91D36F-8B8A-43A2-9F08-9B62AF61D8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A91D36F-8B8A-43A2-9F08-9B62AF61D8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E20717-F8E2-4F31-A0BB-9DAFC77707BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E20717-F8E2-4F31-A0BB-9DAFC77707BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E20717-F8E2-4F31-A0BB-9DAFC77707BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E20717-F8E2-4F31-A0BB-9DAFC77707BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
